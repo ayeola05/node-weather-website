@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    helpText: "This is some helpful text printing",
+    helpText: "Type location in search bar of home page and get your weather forecast",
     title: "Help",
     name: "Taiwo",
   });
